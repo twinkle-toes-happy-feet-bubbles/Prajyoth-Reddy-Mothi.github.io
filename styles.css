@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom,  #D73502 0%, #090a0f 100%);
+  overflow: hidden;
+}
+
+#stars{
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 100px 150px #FFF, 1805px 1416px #fff,
+  153px 160px #FFF,
+124px 1541px #FFF , 927px 564px #FFF , 848px 222px #FFF , 184px 264px #FFF , 1714px 1053px #FFF , 328px 1276px #FFF , 878px 1426px #FFF , 1869px 1260px #FFF , 878px 183px #FFF , 1411px 967px #FFF, 
+1714px 794px #FFF , 1622px 1692px #FFF , 1869px 1873px #FFF , 1376px 1016px #FFF , 132px 1601px #FFF , 1523px 603px #FFF , 552px 745px #FFF , 622px 1148px #FFF , 1620px 612px #FFF , 152px 1445px #FFF 
+  ;
+  animation: animStar 50s linear infinite;
+}
+
+
+#stars:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 100px 150px #FFF, 1805px 1416px #fff,
+  153px 160px #FFF,
+  124px 1541px #FFF , 927px 564px #FFF , 848px 222px #FFF , 184px 264px #FFF , 1714px 1053px #FFF , 328px 1276px #FFF , 878px 1426px #FFF , 1869px 1260px #FFF , 878px 183px #FFF , 1411px 967px #FFF,
+1714px 794px #FFF , 1622px 1692px #FFF , 1869px 1873px #FFF , 1376px 1016px #FFF , 132px 1601px #FFF , 1523px 603px #FFF , 552px 745px #FFF , 622px 1148px #FFF , 1620px 612px #FFF , 152px 1445px #FFF 
+  ;
+}
+#stars2{
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 1234px 1089px #fff,
+1970px 1585px #FFF , 15px 1468px #FFF , 1714px 794px #FFF , 1622px 1692px #FFF , 1869px 1873px #FFF , 1376px 1016px #FFF,1714px 794px #FFF , 1622px 1692px #FFF , 1869px 1873px #FFF , 1376px 1016px #FFF , 132px 1601px #FFF , 1523px 603px #FFF , 552px 745px #FFF , 622px 1148px #FFF , 1620px 612px #FFF , 152px 1445px #FFF 
+  ;
+  animation: animStar 100s linear infinite;
+}
+  #stars2:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 1234px 1089px #fff,
+1970px 1585px #FFF , 15px 1468px #FFF , 1714px 794px #FFF , 1622px 1692px #FFF , 1869px 1873px #FFF , 1376px 1016px #FFF,1714px 794px #FFF , 1622px 1692px #FFF , 1869px 1873px #FFF , 1376px 1016px #FFF , 132px 1601px #FFF , 1523px 603px #FFF , 552px 745px #FFF , 622px 1148px #FFF , 1620px 612px #FFF , 152px 1445px #FFF , 
+  ;
+}
+
+#stars3{
+  width: 4px;
+  height: 4px;
+  background: transparent;
+  box-shadow: 607px 955px #fff, 
+307px 1647px #FFF , 519px 1395px #FFF , 1300px 88px #FFF , 1498px 1466px #FFF , 1970px 1585px #FFF , 15px 1468px #FFF , 714px 794px #FFF , 1622px 1692px #FFF , 1869px 1873px #FFF , 1376px 1016px #FFF , 132px 1601px #FFF , 523px 603px #FFF , 552px 745px #FFF , 622px 1148px #FFF , 620px 612px #FFF , 152px 1445px #FFF , 124px 1541px #FFF , 927px 564px #FFF , 848px 222px #FFF , 184px 264px #FFF , 1714px 1053px #FFF , 328px 1276px #FFF , 878px 1426px #FFF , 1869px 1260px #FFF , 878px 183px #FFF , 1411px 967px #FFF,
+  ;
+  animation: animStar 150s linear infinite;
+}
+
+ #stars3:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 4px;
+  height: 4px;
+  background: transparent;
+  box-shadow: 607px 955px #fff, 307px 1647px #FFF , 519px 1395px #FFF , 1300px 88px #FFF , 1498px 1466px #FFF , 1970px 1585px #FFF , 15px 1468px #FFF , 1714px 794px #FFF , 1622px 1692px #FFF , 1869px 1873px #FFF , 1376px 1016px #FFF , 132px 1601px #FFF , 1523px 603px #FFF , 552px 745px #FFF , 622px 1148px #FFF , 1620px 612px #FFF , 152px 1445px #FFF , 124px 1541px #FFF , 927px 564px #FFF , 848px 222px #FFF , 184px 264px #FFF , 1714px 1053px #FFF , 328px 1276px #FFF , 878px 1426px #FFF , 1869px 1260px #FFF , 878px 183px #FFF , 1411px 967px #FFF ,;
+}
+
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #FF7500;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+}
+#title span {
+  background: -webkit-linear-gradient(#FF8C00, #FF6347,#B62203, #801100);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#title:hover{
+  background:#b1b1b042;
+  text-shadow:1px #ffa271dd;
+  color: #000;
+}
+
+#title span:hover{
+  color: #000;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
+#say{
+  position: absolute;
+  top: 80%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Monospace;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 15px;
+  margin-top: -60px;
+  padding-left: 10px;
+  padding-top: 40px;
+}
